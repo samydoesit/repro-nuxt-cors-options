@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build:nuxt": "nuxt build",
+    "build:nitro": "nitropack build",
+    "dev:nuxt": "nuxt dev",
+    "dev:nitro": "nitropack dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare && nitropack prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.1",
+    "nuxt": "^3.8.0",
+    "nitropack": "latest"
+  }
+}
